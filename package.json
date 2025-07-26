@@ -1,0 +1,14 @@
+{
+  "name": "sentinela-bot",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node api/webhook.js",
+    "build": "echo 'Build'",
+    "start": "node api/webhook.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "axios": "^1.6.2"
+  }
+}
